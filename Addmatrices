@@ -1,0 +1,13 @@
+class addmatrices{  
+public static void main(String args[]){     
+int r[][]={{1,2,3},{2,4,1},{3,2,4}};    
+int c[][]={{1,2,3},{2,4,1},{3,2,4}};      
+int a[][]=new int[3][3]; 
+for(int i=0;i<3;i++)    
+for(int j=0;j<3;j++){    
+a[i][j]=r[i][j]+c[i][j];    
+System.out.print(c[i][j]+" ");    
+}    
+System.out.println();
+}    
+}  
